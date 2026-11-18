@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Curiosity Capture",
+  "description": "Capture a selection, ask a question, and save a learning note in Obsidian.",
+  "version": "0.1.0",
+  "minimum_chrome_version": "114",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Curiosity Capture"
+  },
+  "commands": {
+    "capture-selection": {
+      "suggested_key": {
+        "default": "Alt+Shift+Y"
+      },
+      "description": "Capture selected text"
+    }
+  }
+}

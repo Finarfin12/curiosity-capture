@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curiosity Capture</title><link rel="stylesheet" href="capture.css"></head>
+<body>
+  <main>
+    <header><h1>Curiosity Capture</h1>
+      <details class="settings"><summary data-label="settings"></summary>
+        <label for="language" data-label="language"></label>
+        <select id="language"><option value="en">English</option><option value="id">Bahasa Indonesia</option></select>
+      </details>
+    </header>
+    <form>
+      <label for="title" data-label="title"></label><input id="title" required>
+      <label for="url" data-label="url"></label><input id="url" type="url" required>
+      <label for="selection" data-label="selection"></label><textarea id="selection" rows="3" required></textarea>
+      <div class="question-heading"><label for="question" data-label="question"></label><button type="button" id="suggest" data-label="suggest"></button></div>
+      <textarea id="question" rows="2" required></textarea>
+      <label for="prior_guess" data-label="guess"></label><textarea id="prior_guess" rows="2"></textarea>
+      <label for="confidence" data-label="confidence"></label>
+      <select id="confidence"><option value="50">50%</option><option value="70">70%</option><option value="90">90%</option></select>
+      <p id="clipped" class="notice" hidden></p>
+      <details><summary data-label="preview"></summary><pre id="preview" tabindex="0"></pre></details>
+      <div class="actions"><a id="send" role="button" data-label="send"></a><button id="copy" type="button" data-label="copy"></button></div>
+      <p id="status" role="status"></p>
+    </form>
+  </main>
+  <script src="capture.js"></script>
+</body>
+</html>
