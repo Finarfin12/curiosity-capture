@@ -1,6 +1,8 @@
 # Curiosity Capture
 
-Chrome MV3 extension for turning selected web text into a Curiosity Learning note. English is the default. Choose Indonesian in **Settings → Language**.
+**English** · [Bahasa Indonesia](README.id.md) · [Curiosity Learning on Obsidian Community Plugins](https://community.obsidian.md/plugins/curiosity-learning) · [Curiosity Learning Repo](https://github.com/Finarfin12/curiosity-learning)
+
+Chrome MV3 extension for turning selected web text into a [Curiosity Learning](https://community.obsidian.md/plugins/curiosity-learning) note. English is the default. Choose Indonesian in **Settings → Language**.
 
 ![Curiosity Capture popup](docs/images/curiosity-capture.png)
 

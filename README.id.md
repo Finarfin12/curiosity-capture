@@ -1,6 +1,8 @@
 # Curiosity Capture
 
-Ekstensi Chrome MV3 untuk mengubah kutipan web menjadi catatan Curiosity Learning. Bahasa bawaan English. Pilih Bahasa Indonesia di **Settings → Language**.
+[English](README.md) · **Bahasa Indonesia** · [Curiosity Learning di Obsidian Community Plugins](https://community.obsidian.md/plugins/curiosity-learning) · [Repo Curiosity Learning](https://github.com/Finarfin12/curiosity-learning)
+
+Ekstensi Chrome MV3 untuk mengubah kutipan web menjadi catatan [Curiosity Learning](https://community.obsidian.md/plugins/curiosity-learning). Bahasa bawaan English. Pilih Bahasa Indonesia di **Settings → Language**.
 
 ![Popup Curiosity Capture](docs/images/curiosity-capture.png)
 
